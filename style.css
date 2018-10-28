@@ -7,6 +7,15 @@ h1 {
     font-size: 5rem;
     margin: 1rem;
 }
+
+h4 {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    margin: 1rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
 .grid-outer {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
