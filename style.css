@@ -1,0 +1,13 @@
+.grid-outer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.1em;
+}
+
+.grid-outer > * {
+    background-color: black;
+    color: white;
+    padding: 3em;
+    border-radius: 0.25em;
+}
