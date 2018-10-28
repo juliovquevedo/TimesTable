@@ -24,7 +24,6 @@ h4 {
 }
 
 .grid-outer > * {
-    color: white;
     padding: 0.25em;
     border-radius: 0.25em;
 }
@@ -36,11 +35,14 @@ h4 {
     grid-gap: 0.05em;
     text-align: center;
     font-size: 1.5rem;
-    color: #ddd;
 }
 
 .grid-inner > * {
-    background-color: black;
+    background-color: pink;
     padding: 1em;
     border-radius: 0.25em;
+}
+
+.top, .left {
+    font-weight: bold;
 }
